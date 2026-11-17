@@ -1,0 +1,178 @@
+
+/* General styling */
+body {
+    background-color: #f5f6fa;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+/* Navigation bar */
+.navbar {
+    background-color: #172b4d !important;
+}
+
+.navbar-brand {
+    font-size: 23px;
+    letter-spacing: 0.5px;
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 12px;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* Welcome section */
+.bg-light {
+    background-color: #e9eef5 !important;
+}
+
+section h1 {
+    color: #172b4d;
+}
+
+section h2 {
+    color: #172b4d;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    color: #172b4d;
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #172b4d;
+    border-color: #172b4d;
+}
+
+.btn-primary:hover {
+    background-color: #294b7a;
+    border-color: #294b7a;
+}
+
+/* Footer */
+footer {
+    background-color: #172b4d !important;
+    color: white;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .display-5 {
+        font-size: 30px;
+    }
+
+    section {
+        padding: 25px !important;
+    }
+}
+
+/* General styling */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Navigation bar */
+.navbar {
+    background-color: #5b1725 !important;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #e8c9a0 !important;
+}
+
+/* Welcome section */
+.bg-light {
+    background-color: #f1e4cf !important;
+    border-radius: 12px;
+}
+
+section h1 {
+    color: #701c2c;
+}
+
+section h2 {
+    color: #701c2c;
+}
+
+/* Room cards */
+.card {
+    background-color: #f1e4cf;
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    color: #701c2c;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #333;
+}
+
+/* Buttons - Keep blue */
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0b5ed7;
+}
+
+/* Why Choose Us section */
+section.bg-light {
+    background-color: #f1e4cf !important;
+}
+
+/* Footer */
+footer {
+    background-color: #5b1725 !important;
+    color: white;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .display-5 {
+        font-size: 30px;
+    }
+
+    section {
+        padding: 25px !important;
+    }
+}
